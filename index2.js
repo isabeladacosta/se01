@@ -14,6 +14,9 @@ if(next == rowTwo[2]) {
     
     Chose(rowThree[2] , rowTwo[2]);
 
+    rowThree[2] = move[0];
+    rowTwo[2] = move[1];
+
     console.log('Sliding Puzzle');
     console.log(rowOne);
     console.log(rowTwo);
@@ -27,6 +30,9 @@ function Chose(zero, row){
     var old = row;
     zero = old;
     row = 0;
+
+    var move = [zero, row];
     
+    return move
 };
 
