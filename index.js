@@ -11,10 +11,6 @@ console.log(rowThree);
 var zero;
 var array;
 
-var stop = 0;
-
-while (stop == 0) {
-
 for (var i = 0; i < rowThree.length; i++) {
  for (var j = 0; j < rowTwo.length; j++) {
     for (var k = 0; k < rowOne.length; k++) {
@@ -384,7 +380,6 @@ for (var i = 0; i < rowThree.length; i++) {
   }
  }
 
-}
 
 
 
